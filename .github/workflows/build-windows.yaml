@@ -11,7 +11,7 @@ on:
                 description: 'Build args'
                 required: false
                 type: string
-                default: '-opensource -c++std c++11 -static -qt-zlib -qt-libpng -qt-libjpeg -no-journald  -nomake tools -nomake tests -skip qtquickcontrols -skip qtquickcontrols2 -skip qtsensors -skip qt3d -skip qtdoc -skip examples'
+                default: '-opensource -c++std c++11 -static -qt-zlib -no-journald  -nomake tools -nomake tests -skip qtquickcontrols -skip qtquickcontrols2 -skip qtsensors -skip qt3d -skip qtdoc -skip examples'
             modules:
                 description: 'Build modules'
                 required: true
