@@ -6,7 +6,7 @@ on:
                 description: 'Build version'
                 required: true
                 type: string
-                default: '5.15.2'
+                default: 'v5.15.11-lts-lgpl'
             configure-args:
                 description: 'Build args'
                 required: true
