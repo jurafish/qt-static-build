@@ -9,7 +9,7 @@ on:
                 default: 'v5.15.11-lts-lgpl'
             configure-args:
                 description: 'Build args'
-                required: true
+                required: false
                 type: string
             modules:
                 description: 'Build modules'
