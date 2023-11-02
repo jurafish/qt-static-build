@@ -6,7 +6,7 @@ on:
                 description: 'Build version'
                 required: true
                 type: string
-                default: '6.6.0'
+                default: '5.15.11'
             configure-args:
                 description: 'Build args'
                 required: true
